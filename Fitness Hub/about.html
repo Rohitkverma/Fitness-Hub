@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World's best gym</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,300;0,400;0,600;1,300&family=Sofia+Sans:ital,wght@1,200&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ca1439ea10.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+
+        <nav>
+            <h1><a href="#">FitSumit</a></h1>
+            <div class="nav_link" id="navLinks">
+                <i class="fa fa-times" onClick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="context.html">Contexts</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onClick="showMenu()"></i>
+        </nav>
+        <h2>About Us</h2>
+    </section>
+
+<!-- ******About us******** -->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We have the world's lagest gym</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, cum vitae molestiae rem molestias eius quo sit ullam maiores omnis, repudiandae, assumenda eveniet praesentium animi harum totam modi. Perferendis, recusandae doloremque. Suscipit quaerat fugit saepe beatae hic numquam, perferendis nihil, velit ad nemo dolore impedit!Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ipsa iste consectetur quasi quisquam. Fugiat nulla natus cum quos voluptatem. </p>
+            <a href="" class="container_btn button">Explore now</a>
+        </div>
+        <div class="about-col">
+            <img src="images/context2.jpg">
+        </div>
+    </div>
+</section>
+
+    <!-- ********Footer ******* -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quam mollitia molestias <br> sed omnis
+            praesentium nam quia maxime voluptatibus ab?</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+
+    <script>
+        let navLinks = document.getElementById("navLinks")
+        function showMenu() {
+            navLinks.style.right = '0'
+        }
+        function hideMenu() {
+            navLinks.style.right = '-200px'
+        }
+    </script>
+</body>
+
+</html>

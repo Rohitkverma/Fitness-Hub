@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World's best gym</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,300;0,400;0,600;1,300&family=Sofia+Sans:ital,wght@1,200&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ca1439ea10.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+
+        <nav>
+            <h1><a href="#">FitSumit</a></h1>
+            <div class="nav_link" id="navLinks">
+                <i class="fa fa-times" onClick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="context.html">Contexts</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onClick="showMenu()"></i>
+        </nav>
+        <h2>Contact Us</h2>
+    </section>
+    
+    <!-- ******Contact us******** -->
+    <secction class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8536.668936589831!2d75.79459435150736!3d26.8643549303284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5d0d1750975%3A0x1b439453d0000000!2sGym%20Center!5e0!3m2!1sen!2sin!4v1674490992524!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
+    </secction>
+
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Gopalpura Road, roton building</h5>
+                        <p>Rajasthan, jaipur , India</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+91 987654321</h5>
+                        <p>Monday to Saturday, 10am to 5pm</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>ABCgym123@gmail.com</h5>
+                        <p>Email Us for more Query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="text" placeholder="Enter email address" required>
+                    <input type="text" placeholder="Enter your height" required>
+                    <textarea rows="10" placeholder="Message"></textarea>
+                    <button type="submit" class="container_btn button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ********Footer ******* -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quam mollitia molestias <br> sed omnis
+            praesentium nam quia maxime voluptatibus ab?</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+
+    <script>
+        let navLinks = document.getElementById("navLinks")
+        function showMenu() {
+            navLinks.style.right = '0'
+        }
+        function hideMenu() {
+            navLinks.style.right = '-200px'
+        }
+    </script>
+</body>
+
+</html>

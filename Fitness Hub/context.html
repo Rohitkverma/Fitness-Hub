@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World's best gym</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,300;0,400;0,600;1,300&family=Sofia+Sans:ital,wght@1,200&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ca1439ea10.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+
+        <nav>
+            <h1><a href="#">FitSumit</a></h1>
+            <div class="nav_link" id="navLinks">
+                <i class="fa fa-times" onClick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="context.html">Contexts</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onClick="showMenu()"></i>
+        </nav>
+        <h2>Our Certificates and online programs for 2023</h2>
+    </section>
+    
+    <!-- ******Blog content******** -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/context4.jpg" alt="">
+                <h2>Our Certificates and online programs for 2023</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo sunt cum, atque nostrum delectus sequi laboriosam natus consectetur unde dolores at excepturi reiciendis voluptate, eaque dolor? Repellat voluptas minima deserunt! Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta non deleniti hic, similique numquam maiores? Praesentium maiores optio blanditiis ea.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non modi debitis deleniti atque quos rerum, necessitatibus velit minus excepturi recusandae esse voluptates, aut vel eaque nemo quae blanditiis ab accusantium doloribus! Tempore, beatae modi. Inventore dolor corporis laudantium nesciunt obcaecati mollitia officia iure vel, quia, pariatur dignissimos totam, possimus at eos nobis molestias voluptas laboriosam similique tempora iusto enim! Accusamus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dicta quos voluptate eligendi corrupti dolore quidem beatae architecto officiis illum, impedit laboriosam, soluta, natus ipsa ullam labore excepturi animi consequatur at consequuntur error harum qui! Assumenda asperiores nulla soluta, ipsum aliquid modi quisquam culpa vero reprehenderit eveniet recusandae, voluptates fuga!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti vitae sunt ipsa deleniti! Voluptatum odio vel nisi quae repellat repellendus voluptates id vero exercitationem quaerat dolor ullam itaque, saepe voluptas at architecto placeat eligendi, officiis similique porro quam impedit qui beatae? Totam nisi obcaecati non? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo quis aspernatur libero illo ea a fuga, atque quisquam sed corrupti?</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis exercitationem cum fugiat hic quidem placeat sed animi veniam suscipit, eaque quis, dolorem earum itaque odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, blanditiis! </p>
+
+                <div class="comment_box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter your name">
+                        <input type="email" placeholder="Enter your email">
+                        <textarea rows="10" placeholder="Your comment"></textarea>
+                        <button type="submit" class="container_btn button">POST COMMENT</button>
+                    </form>
+                </div>
+        </div>
+        <div class="bolg-right">
+            <h3>Categories of exercises</h3>
+            <div>
+                <span>Butterfly exercise</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Butterfly exercise</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Butterfly exercise</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Butterfly exercise</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Butterfly exercise</span>
+                <span>21</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- ********Footer ******* -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quam mollitia molestias <br> sed omnis
+            praesentium nam quia maxime voluptatibus ab?</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+
+    <script>
+        let navLinks = document.getElementById("navLinks")
+        function showMenu() {
+            navLinks.style.right = '0'
+        }
+        function hideMenu() {
+            navLinks.style.right = '-200px'
+        }
+    </script>
+</body>
+
+</html>
